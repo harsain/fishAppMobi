@@ -1,0 +1,135 @@
+<ion-view view-title="Weather">
+    <ion-content>
+        <div class="card">
+            <div class="item item-divider item-icon-left">
+                <i class="icon ion-bug"></i>
+                SquidTracker
+            </div>
+            <div class="item item-text-wrap">
+                <div class="list">
+                    <div class="item item-divider item-icon-left">
+                        <i class="icon ion-ios-location"></i>
+                        Location
+                    </div>
+                    <div class="item">
+                        Latitude: {{latitude}}
+                    </div>
+                    <div class="item">
+                        Longitude: {{longitude}}
+                    </div>
+
+                    <div class="item item-divider item-icon-left">
+                        <i class="icon ion-ios-cloud"></i>
+                        Weather
+                    </div>
+
+                    <div class="item">
+                        WMO ID: {{weather.wmoId}}
+                    </div>
+                    <div class="item">
+                        BOM ID: {{weather.bomId}}
+                    </div>
+                    <div class="item">
+                        TZ: {{weather.tz}}
+                    </div>
+                    <div class="item">
+                        Station: {{weather.stnName}}
+                    </div>
+                    <div class="item">
+                        Station Height: {{weather.stnHeight}}
+                    </div>
+                    <div class="item">
+                        Type: {{weather.type}}
+                    </div><div class="item">
+                        Latitude: {{weather.latitude}}
+                    </div><div class="item">
+                        Longitude: {{weather.longitude}}
+                    </div>
+                    <div class="item">
+                        Forecast District ID: {{weather.forecastDistrictId}}
+                    </div>
+                    <div class="item">
+                        Description: {{weather.description}}
+                    </div>
+                    <div class="item">
+                        Time UTC: {{weather.timeUTC}}
+                    </div><div class="item">
+                        Time Local: {{weather.timeLocal}}
+                    </div>
+                    <div class="item">
+                        Apparent Temperature: {{weather.apparentTemp.value}} {{weather.apparentTemp.unit}}
+                    </div>
+                    <div class="item">
+                        Delta Temperature: {{weather.apparentTemp.value}} {{weather.apparentTemp.unit}}
+                    </div>
+                    <div class="item">
+                        Gust kmh: {{weather.gustKmh.value}} {{weather.gustKmh.unit}}
+                    </div>
+                    <div class="item">
+                        Wind Gust Speed: {{weather.windGustSpd.value}} {{weather.windGustSpd.unit}}
+                    </div>
+                    <div class="item">
+                        Air Temperature: {{weather.airTemperature.value}} {{weather.airTemperature.unit}}
+                    </div>
+                    <div class="item">
+                        Dew Point: {{weather.dewPoint.value}} {{weather.dewPoint.unit}}
+                    </div>
+                    <div class="item">
+                        Pressure: {{weather.pressure.value}} {{weather.pressure.unit}}
+                    </div>
+                    <div class="item">
+                        Msl pressure: {{weather.mslPres.value}} {{weather.mslPres.unit}}
+                    </div>
+                    <div class="item">
+                        Qnh pressure: {{weather.qnhPres.value}} {{weather.qnhPres.unit}}
+                    </div>
+                    <div class="item">
+                        Rain hour: {{weather.rainHour.value}} {{weather.rainHour.unit}}
+                    </div>
+                    <div class="item">
+                        Rain ten: {{weather.rainTen.value}} {{weather.rainTen.unit}}
+                    </div>
+                    <div class="item">
+                        Relative humidity: {{weather.relHumidity.value}} {{weather.relHumidity.unit}}
+                    </div>
+                    <div class="item">
+                        Visibility km: {{weather.visKm.value}} {{weather.visKm.unit}}
+                    </div>
+                    <div class="item">
+                        Wind direction: {{weather.windDir.value}}
+                    </div>
+                    <div class="item">
+                        Wind direction Deg: {{weather.windDirDeg.value}} {{weather.windDirDeg.unit}}
+                    </div>
+                    <div class="item">
+                        Wind speed kmh: {{weather.windSpdKmh.value}} {{weather.windSpdKmh.unit}}
+                    </div>
+                    <div class="item">
+                        Wind speed: {{weather.windSpd.value}} {{weather.windSpd.unit}}
+                    </div>
+                    <div class="item">
+                        Rainfall: {{weather.rainfall.value}} {{weather.rainfall.unit}}
+                    </div>
+                    <div class="item">
+                        Rainfall 24 Hr: {{weather.rainfall24Hr.value}} {{weather.rainfall24Hr.unit}}
+                    </div>
+                    <div class="item">
+                        Maximum air temperature: {{weather.maximumAirTemperature.value}} {{weather.maximumAirTemperature.unit}}
+                    </div>
+                    <div class="item">
+                        Minimum air temperature: {{weather.minimumAirTemperature.value}} {{weather.minimumAirTemperature.unit}}
+                    </div>
+                    <div class="item">
+                        Maximum gust speed: {{weather.maximumGustSpd.value}} {{weather.maximumGustSpd.unit}}
+                    </div>
+                    <div class="item">
+                        Maximum gust kmh: {{weather.maximumGustKmh.value}} {{weather.maximumGustKmh.unit}}
+                    </div>
+                    <div class="item">
+                        Maximum gust direction: {{weather.maximumGustDir.value}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
