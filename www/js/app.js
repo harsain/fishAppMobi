@@ -38,6 +38,15 @@ squidTrackerApp.config(function($stateProvider, $urlRouterProvider) {
                 controller: 'WeatherCtrl'
             }
         }
+    })
+    .state('app.stationweather', {
+        url: '/stationweather',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/stationweather.html',
+                controller: 'StationWeatherCtrl'
+            }
+        }
     });
 
     // if none of the above states are matched, use this as the fallback
